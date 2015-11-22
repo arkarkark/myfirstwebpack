@@ -1,0 +1,27 @@
+{
+  "name": "myfirstwebpack",
+  "version": "1.0.0",
+  "description": "d",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base app --hot"
+  },
+  "author": "a",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.4.8",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "css-loader": "^0.23.0",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "ng-annotate": "^1.0.2",
+    "ng-annotate-loader": "0.0.10",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.8",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
